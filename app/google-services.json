@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "407427286658",
+    "firebase_url": "https://satbri-2131.firebaseio.com",
+    "project_id": "satbri-2131",
+    "storage_bucket": "satbri-2131.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407427286658:android:2bc1c12de97e536b2fd69b",
+        "android_client_info": {
+          "package_name": "com.sathish_android_notes.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "407427286658-dmvnjbpk4obbqrufgckt0j0hf1ci6bef.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sathish_android_notes.myapplication",
+            "certificate_hash": "4ad95a6a6dacadeb65791de51662e3ed6116db5e"
+          }
+        },
+        {
+          "client_id": "407427286658-9979ntpc80jbv5tok3sbmccifb9kr8a7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9rhIvAO08-JXXc4K7XvUc9l6BSsmvxCw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "407427286658-9979ntpc80jbv5tok3sbmccifb9kr8a7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

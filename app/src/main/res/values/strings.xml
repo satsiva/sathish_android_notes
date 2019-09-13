@@ -1,7 +1,16 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">My Application</string>
 
-    <string name="facebook_app_id">2381725655415893</string>
-    <string name="fb_login_protocol_scheme">fb2381725655415893</string>
+    <string name="facebook_app_id" tools:ignore="MissingTranslation">2381725655415893</string>
+    <string name="fb_login_protocol_scheme" tools:ignore="MissingTranslation">fb2381725655415893</string>
 
+    <string name="web_client_id" tools:ignore="MissingTranslation">407427286658-9979ntpc80jbv5tok3sbmccifb9kr8a7.apps.googleusercontent.com</string>
+
+
+    <string name="tracking_enabled_notif" tools:ignore="MissingTranslation">Tracking is currently enabled. Tap to cancel.</string>
+    <string name="test_email" tools:ignore="MissingTranslation">addgradel@gmail.com</string>
+    <string name="test_password" tools:ignore="MissingTranslation">hai123</string>
+    <string name="firebase_path" tools:ignore="MissingTranslation">location2</string>
+
+    <string name="google_maps_key">AIzaSyBY5hlM8ioRbflHoZAIeCf1ceOXLYCDwik</string>
 </resources>

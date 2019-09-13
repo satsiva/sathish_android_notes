@@ -11,9 +11,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-
         android:theme="@style/AppTheme">
-        <activity android:name=".ApacheHttpClient.RecycleActivity">
+        <activity android:name=".LanguageChange.ChangeLan">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,18 +20,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
+        </activity>
+        <activity android:name=".ReadXMLdata.NewsList">
 
         </activity>
-        <!--
-         <meta-data
-            android:name="com.onesignal.NotificationOpened.DEFAULT"
-            android:value="DISABLE" />
-        -->
+        <activity android:name=".GoogleMapDemo.MapsActivity"></activity>
+        <activity android:name=".FirebaseTracking.FirebaseTrack"></activity>
+        <activity android:name=".CurrentLocation.GetCurrentLocation" />
+        <activity android:name=".GoogleLogin.FirebaseGoogleLogin" />
+        <activity android:name=".GoogleLogin.CustomFacebookAndGoogleLogin" />
+        <activity android:name=".ApacheHttpClient.RecycleActivity" />
         <activity
             android:name="com.facebook.FacebookActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:label="@string/app_name" />
-
         <activity
             android:name="com.facebook.CustomTabActivity"
             android:exported="true">
@@ -46,17 +47,30 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
-        <activity android:name=".Facebook.FaceBookActivity"></activity>
-        <activity android:name=".OnesignalDemo.Onesignalsatbri">
+        <activity android:name=".Facebook.FaceBookActivity" />
+        <activity android:name=".OnesignalDemo.Onesignalsatbri" />
 
-        </activity>
+        <meta-data
+            android:name="com.onesignal.NotificationOpened.DEFAULT"
+            android:value="DISABLE" />
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
-    </application>
 
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <service
+            android:name=".FirebaseTracking.TrackingService"
+            android:enabled="true"
+            android:exported="true" />
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
 </manifest>
